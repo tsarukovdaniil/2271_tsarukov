@@ -183,7 +183,7 @@ def every_other(seq):
     it = iter(seq)
     for x in it:
         yield x
-        next(it, None)   # пропускаем следующий элемент
+        next(it, None)
 ```
 
 
